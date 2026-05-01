@@ -500,6 +500,28 @@ export default function MentoriaPage() {
           </div>
         </section>
 
+        {/* Frase de impacto */}
+    <section style={{ position: "relative", zIndex: 1, padding: "40px 24px 60px", textAlign: "center" }}>
+    <div style={{ maxWidth: "600px", margin: "0 auto" }}>
+     <p
+      className="font-display"
+      style={{
+        fontSize: "clamp(1.3rem, 3.5vw, 2rem)",
+        fontStyle: "italic",
+        fontWeight: 300,
+        color: "rgba(240,235,225,0.35)",
+        lineHeight: 1.6,
+        letterSpacing: "0.01em",
+        margin: 0,
+      }}
+    >
+      "A mente desiste mil vezes antes do corpo.
+      <br />
+      <span style={{ color: "rgba(201,169,110,0.6)" }}>É ela que você deve treinar.</span>"
+    </p>
+  </div>
+</section>
+
         {/* FOOTER */}
         <footer style={{ position: "relative", zIndex: 1, textAlign: "center", padding: "24px", borderTop: "1px solid rgba(201,169,110,0.1)" }}>
           <p style={{ fontSize: "0.75rem", color: "rgba(240,235,225,0.25)", margin: 0 }}>
